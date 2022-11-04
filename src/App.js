@@ -9,16 +9,15 @@ import './App.css';
 
 
 function App() {
-
   return (
-    <main className="App">
+    <div className="App">
       <Navbar />
       <About />
       <Projects />
       <Testimonials />
       <Skills />
       <Contact />
-    </main>
+    </div>
   );
 }
 
