@@ -1,15 +1,14 @@
 import React from "react";
 import "./Navbar.css";
 
-function Navbar() {
+const Navbar = () => {
   return (
     <div className="Navbar">
       <div className="Navbar__container">
         <div className="Navbar__logo">
-            <a href="#home">LOGO</a>
-      
+            <a href="#home" className="logo-text">CABON-TECH</a>
         </div>
-        <div className="Navbar__menu">
+        <div className="Navbar__menu--right">
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
