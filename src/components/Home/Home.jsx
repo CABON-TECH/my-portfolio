@@ -12,7 +12,11 @@ const Home = () => {
       </p>
     </div>
     <div>
-        <p className='Name'>I'm <span className="name">Boniface Mbogho</span></p>
+     <p className='Name'>I'm <span className="name">Boniface Mbogho</span></p>
+    </div>
+    <div>
+      <p className="job"><span>A Front End Web Developer with a great eye for </span><span>Design. I enjoy Crafting Unique Web Experiences </span><span>& Building Software Solutions</span></p>
+
     </div>
  </div>
   )
