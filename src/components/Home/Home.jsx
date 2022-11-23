@@ -18,6 +18,9 @@ const Home = () => {
       <p className="job"><span>A Front End Web Developer with a great eye for </span><span>Design. I enjoy Crafting Unique Web Experiences </span><span>& Building Software Solutions</span></p>
 
     </div>
+    <div>
+      <button className="about" href="#about">About Me</button>
+    </div>
  </div>
   )
 }
