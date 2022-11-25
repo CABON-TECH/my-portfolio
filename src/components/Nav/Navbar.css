@@ -1,3 +1,8 @@
+.Navbar{
+  padding: 30px;
+  padding-bottom: 0;
+}
+
 .Navbar__logo{
   height: 100%;
   width: 100%;
@@ -14,28 +19,18 @@
   cursor: pointer;
 }
 
-.Navbar__menu{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  height: 100%;
-  padding: 0 1rem;
-  position: relative;
-  left: 500px;
-  top: 10px;
-}
-
 .Navbar__menu--right{
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  width: 100%;
-  height: 100%;
-  padding: 0 1rem;
-  position: relative;
-  left: 500px;
-  top: 10px;
+  color: #fff;
+}
+.Navbar__menu--right ul{
+  gap: 40px;
+  display: flex;
+  padding-right: 80px;
+}
+.Navbar__menu--right ul li{
+  list-style: none;
 }
 
 .Navbar__menu--right a{
@@ -43,7 +38,6 @@
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 500;
-  padding: 0 0.5rem;
   transition: all 0.3s ease;
 }
 
@@ -65,7 +59,6 @@
   width: 100%;
   height: 2px;
   background: #f1c40f;
-  margin-top: 0.5rem;
 }
 
 .Navbar__menu--right a.active:hover::after{
@@ -78,17 +71,7 @@
   width: 100%;
   height: 2px;
   background: #f1c40f;
-  margin-top: 0.5rem;
 }
-
-li{
-  list-style: none;
-  display: inline;
-  position: relative;
-  left: 250px;
-  bottom: 45px;
-}
-
 .logo-text{
 color:#fff;
 font-size: 1.5rem;
