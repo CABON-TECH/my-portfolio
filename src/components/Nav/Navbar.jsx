@@ -6,9 +6,9 @@ const Navbar = () => {
     <div className="Navbar">
       <div className="Navbar__container">
         <div className="Navbar__logo">
-            <a href="#home" className="logo-text">CABON-TECH</a>
         </div>
         <div className="Navbar__menu--right">
+          <a href="#home" className="logo-text">CABON-TECH</a>
             <ul>
               <li><a href="#home">Home</a></li>
               <li><a href="#about">About</a></li>
